@@ -1,0 +1,851 @@
+user_id,timestamp,user_input,emotion_label,sentiment_score,therapy_type,success_rating
+1,04/09/2024 00:00,I feel so overwhelmed with work.,Positive,-0.01,Counseling,2
+2,05/04/2024 00:00,I feel lonely and disconnected.,Loneliness,-0.34,CBT,2
+3,24/06/2024 00:00,"I'm feeling good today, had a nice walk!",Insomnia,-0.58,Social Therapy,3
+4,29/01/2025 00:00,I just don’t see the point in anything.,Loneliness,-0.93,Social Therapy,5
+5,16/09/2024 00:00,I feel better after talking to someone.,Insomnia,-0.51,Counseling,3
+6,01/10/2024 00:00,I feel so overwhelmed with work.,Anxiety,-0.5,Counseling,4
+7,16/05/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,0.92,Self-care,1
+8,29/03/2024 00:00,"I'm feeling good today, had a nice walk!",Positive,-1,Social Therapy,1
+9,09/01/2025 00:00,I feel happy and motivated today!,Depression,0.55,Mindfulness,2
+10,05/02/2025 00:00,I feel stressed about the future.,Positive,0.42,Self-care,4
+11,09/05/2024 00:00,I feel so overwhelmed with work.,Anxiety,0.31,Social Therapy,5
+12,20/05/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,-0.07,Social Therapy,2
+13,14/07/2024 00:00,I feel better after talking to someone.,Loneliness,-0.59,Self-care,4
+14,17/07/2024 00:00,I feel lonely and disconnected.,Anxiety,0.76,Mindfulness,3
+15,01/06/2024 00:00,My anxiety is getting worse.,Loneliness,-0.45,Self-care,5
+16,28/10/2024 00:00,My anxiety is getting worse.,Loneliness,-0.52,Counseling,3
+17,24/06/2024 00:00,I feel happy and motivated today!,Insomnia,0.98,Self-care,3
+18,19/04/2024 00:00,I feel happy and motivated today!,Depression,-0.46,CBT,5
+19,20/09/2024 00:00,I feel lonely and disconnected.,Loneliness,-0.69,Self-care,1
+20,21/04/2024 00:00,I'm having trouble concentrating on anything.,Depression,0.94,Mindfulness,5
+21,21/12/2024 00:00,I feel so overwhelmed with work.,Insomnia,0.38,Self-care,4
+22,02/06/2024 00:00,My anxiety is getting worse.,Insomnia,0.54,Counseling,5
+23,19/04/2024 00:00,My anxiety is getting worse.,Depression,0.98,Social Therapy,3
+24,08/10/2024 00:00,I feel stressed about the future.,Depression,-0.93,Social Therapy,4
+25,16/02/2025 00:00,My anxiety is getting worse.,Positive,0.06,Self-care,5
+26,09/11/2024 00:00,I just don’t see the point in anything.,Depression,-0.42,CBT,3
+27,21/05/2024 00:00,I feel better after talking to someone.,Loneliness,-0.01,Self-care,4
+28,11/05/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Loneliness,-0.52,Social Therapy,2
+29,08/08/2024 00:00,I feel lonely and disconnected.,Positive,0.95,Mindfulness,4
+30,12/01/2025 00:00,I feel stressed about the future.,Depression,-0.02,Mindfulness,4
+31,18/11/2024 00:00,My anxiety is getting worse.,Anxiety,0.86,CBT,3
+32,21/02/2025 00:00,"I'm feeling good today, had a nice walk!",Anxiety,-0.06,Social Therapy,2
+33,24/10/2024 00:00,I feel lonely and disconnected.,Loneliness,0.33,Counseling,1
+34,04/07/2024 00:00,I'm having trouble concentrating on anything.,Depression,-0.29,CBT,5
+35,13/11/2024 00:00,I feel happy and motivated today!,Anxiety,0.05,CBT,4
+36,18/03/2024 00:00,I just don’t see the point in anything.,Anxiety,-0.2,Self-care,4
+37,10/12/2024 00:00,I feel better after talking to someone.,Anxiety,-0.18,Social Therapy,4
+38,29/12/2024 00:00,I just don’t see the point in anything.,Positive,0.6,Social Therapy,1
+39,12/05/2024 00:00,I feel better after talking to someone.,Insomnia,-0.76,Self-care,3
+40,14/01/2025 00:00,I'm having trouble concentrating on anything.,Insomnia,0.34,Social Therapy,5
+41,14/11/2024 00:00,I just don’t see the point in anything.,Insomnia,0.6,Social Therapy,4
+42,20/09/2024 00:00,My anxiety is getting worse.,Insomnia,-0.88,Counseling,5
+43,01/04/2024 00:00,"I'm feeling good today, had a nice walk!",Anxiety,-0.33,CBT,2
+44,11/09/2024 00:00,I feel happy and motivated today!,Insomnia,0.29,Counseling,1
+45,11/12/2024 00:00,I feel happy and motivated today!,Depression,-0.41,CBT,3
+46,06/09/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,-0.56,Social Therapy,4
+47,30/03/2024 00:00,My anxiety is getting worse.,Anxiety,0.18,Mindfulness,2
+48,14/06/2024 00:00,I feel happy and motivated today!,Insomnia,-0.82,CBT,1
+49,05/10/2024 00:00,I'm having trouble concentrating on anything.,Positive,-0.24,CBT,4
+50,21/07/2024 00:00,I just don’t see the point in anything.,Positive,0.06,Self-care,4
+51,12/05/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,0.2,Counseling,4
+52,22/08/2024 00:00,"I'm feeling good today, had a nice walk!",Positive,-0.41,Mindfulness,2
+53,10/12/2024 00:00,I just don’t see the point in anything.,Insomnia,-0.11,Self-care,4
+54,30/01/2025 00:00,I feel better after talking to someone.,Depression,-0.04,Counseling,5
+55,12/12/2024 00:00,I feel better after talking to someone.,Depression,-0.6,CBT,1
+56,03/09/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,0.44,Social Therapy,1
+57,04/07/2024 00:00,I feel so overwhelmed with work.,Positive,-0.77,Self-care,5
+58,29/03/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,-0.48,Self-care,3
+59,24/12/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Loneliness,0.14,Self-care,4
+60,10/12/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,0.73,Mindfulness,2
+61,12/03/2024 00:00,I just don’t see the point in anything.,Depression,0.26,Social Therapy,5
+62,15/10/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Depression,-0.41,Social Therapy,1
+63,20/06/2024 00:00,I feel lonely and disconnected.,Depression,-0.06,CBT,2
+64,07/05/2024 00:00,I feel lonely and disconnected.,Depression,-0.91,Counseling,1
+65,01/09/2024 00:00,I feel lonely and disconnected.,Loneliness,-0.99,Social Therapy,4
+66,17/07/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,-0.2,Counseling,2
+67,26/07/2024 00:00,I'm having trouble concentrating on anything.,Anxiety,0.52,Mindfulness,2
+68,15/10/2024 00:00,I feel happy and motivated today!,Depression,0.98,Self-care,3
+69,07/12/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,-0.02,CBT,4
+70,10/10/2024 00:00,I feel happy and motivated today!,Positive,0.31,Counseling,5
+71,12/10/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,-0.46,CBT,1
+72,25/03/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Loneliness,0.03,Self-care,2
+73,29/04/2024 00:00,I feel happy and motivated today!,Loneliness,0.28,Social Therapy,2
+74,22/02/2025 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,-0.24,Counseling,5
+75,01/02/2025 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,0.69,Mindfulness,2
+76,02/02/2025 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,0.72,Counseling,4
+77,29/07/2024 00:00,I feel lonely and disconnected.,Anxiety,-0.45,Self-care,4
+78,07/01/2025 00:00,I feel stressed about the future.,Insomnia,-0.81,Social Therapy,4
+79,19/04/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,-0.72,Self-care,2
+80,14/06/2024 00:00,I feel so overwhelmed with work.,Anxiety,-0.48,Social Therapy,1
+81,17/06/2024 00:00,I feel so overwhelmed with work.,Loneliness,0.11,Social Therapy,4
+82,11/05/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,-0.85,Mindfulness,3
+83,04/05/2024 00:00,I feel happy and motivated today!,Depression,0.34,Social Therapy,5
+84,12/04/2024 00:00,I feel so overwhelmed with work.,Anxiety,-0.15,CBT,2
+85,27/02/2025 00:00,"I'm feeling good today, had a nice walk!",Insomnia,-0.75,CBT,5
+86,06/12/2024 00:00,I just don’t see the point in anything.,Loneliness,-0.35,Counseling,1
+87,12/11/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Depression,-0.91,Mindfulness,4
+88,15/08/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,-0.35,Counseling,4
+89,31/05/2024 00:00,My anxiety is getting worse.,Depression,0.97,Self-care,3
+90,23/11/2024 00:00,I feel happy and motivated today!,Anxiety,0.06,Mindfulness,5
+91,01/07/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Positive,0.79,Counseling,1
+92,02/05/2024 00:00,I feel so overwhelmed with work.,Positive,-0.97,Mindfulness,4
+93,28/10/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,0.13,Social Therapy,3
+94,28/04/2024 00:00,I just don’t see the point in anything.,Depression,-0.98,Social Therapy,4
+95,24/04/2024 00:00,I feel better after talking to someone.,Loneliness,0.58,Counseling,2
+96,27/10/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Loneliness,0.71,Social Therapy,5
+97,22/12/2024 00:00,I feel happy and motivated today!,Anxiety,-0.83,Mindfulness,4
+98,30/06/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Positive,0.46,Counseling,5
+99,23/04/2024 00:00,I feel so overwhelmed with work.,Positive,0.63,Self-care,2
+100,02/10/2024 00:00,I just don’t see the point in anything.,Anxiety,0.02,Social Therapy,3
+101,25/03/2024 00:00,I feel happy and motivated today!,Loneliness,-0.63,Counseling,4
+102,13/11/2024 00:00,I feel lonely and disconnected.,Insomnia,0.45,Self-care,4
+103,12/10/2024 00:00,I feel stressed about the future.,Insomnia,-0.58,Social Therapy,4
+104,20/05/2024 00:00,My anxiety is getting worse.,Insomnia,-0.31,Self-care,5
+105,24/09/2024 00:00,I feel lonely and disconnected.,Anxiety,0.25,Counseling,5
+106,21/04/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,-0.5,CBT,1
+107,29/06/2024 00:00,I feel so overwhelmed with work.,Depression,-0.77,Social Therapy,2
+108,11/05/2024 00:00,I'm having trouble concentrating on anything.,Anxiety,-0.91,Mindfulness,5
+109,24/12/2024 00:00,I'm having trouble concentrating on anything.,Positive,-0.96,Mindfulness,1
+110,18/12/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,-0.06,Social Therapy,3
+111,22/04/2024 00:00,I feel better after talking to someone.,Positive,-0.77,CBT,5
+112,27/06/2024 00:00,I feel lonely and disconnected.,Loneliness,0.79,Social Therapy,3
+113,20/03/2024 00:00,I feel stressed about the future.,Insomnia,-0.46,Social Therapy,5
+114,17/12/2024 00:00,I feel happy and motivated today!,Loneliness,-0.27,Mindfulness,2
+115,16/03/2024 00:00,I feel stressed about the future.,Insomnia,-0.16,Self-care,5
+116,27/02/2025 00:00,I'm having trouble concentrating on anything.,Loneliness,-0.08,Social Therapy,2
+117,12/12/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,-0.49,Mindfulness,4
+118,14/11/2024 00:00,I feel happy and motivated today!,Insomnia,-0.88,Self-care,2
+119,28/03/2024 00:00,My anxiety is getting worse.,Positive,0.5,Mindfulness,1
+120,31/03/2024 00:00,I feel so overwhelmed with work.,Positive,0.42,CBT,4
+121,23/08/2024 00:00,I feel lonely and disconnected.,Positive,-0.5,Counseling,3
+122,30/09/2024 00:00,"I'm feeling good today, had a nice walk!",Insomnia,-0.19,Counseling,4
+123,21/02/2025 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,-0.03,Counseling,1
+124,17/03/2024 00:00,I feel stressed about the future.,Insomnia,-0.96,Self-care,5
+125,11/02/2025 00:00,I feel so overwhelmed with work.,Positive,0.28,Counseling,2
+126,20/05/2024 00:00,I feel stressed about the future.,Positive,0.13,CBT,4
+127,05/09/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,-0.04,Self-care,5
+128,29/09/2024 00:00,I feel happy and motivated today!,Positive,-0.62,Counseling,4
+129,27/10/2024 00:00,I feel better after talking to someone.,Insomnia,-0.54,Mindfulness,2
+130,18/02/2025 00:00,I'm having trouble concentrating on anything.,Depression,0.21,CBT,4
+131,14/08/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Loneliness,-0.8,Counseling,2
+132,27/09/2024 00:00,I feel stressed about the future.,Depression,-0.43,Counseling,4
+133,28/04/2024 00:00,I feel so overwhelmed with work.,Anxiety,0.53,Mindfulness,4
+134,18/12/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,0.28,CBT,2
+135,13/06/2024 00:00,I feel lonely and disconnected.,Loneliness,-0.4,Social Therapy,4
+136,06/08/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Depression,0.25,Social Therapy,4
+137,14/03/2024 00:00,I feel happy and motivated today!,Insomnia,-0.48,CBT,4
+138,19/04/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,0.36,Social Therapy,4
+139,11/11/2024 00:00,I feel lonely and disconnected.,Anxiety,-0.78,Mindfulness,3
+140,05/03/2024 00:00,"I'm feeling good today, had a nice walk!",Insomnia,0.87,Self-care,5
+141,12/04/2024 00:00,My anxiety is getting worse.,Anxiety,0.5,Self-care,2
+142,18/01/2025 00:00,I feel better after talking to someone.,Anxiety,-0.31,Counseling,4
+143,28/08/2024 00:00,I just don’t see the point in anything.,Anxiety,-0.39,Counseling,3
+144,19/01/2025 00:00,I just don’t see the point in anything.,Loneliness,-0.41,Self-care,1
+145,13/04/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,0.88,Social Therapy,1
+146,27/11/2024 00:00,I feel so overwhelmed with work.,Positive,-0.43,Self-care,1
+147,17/07/2024 00:00,I feel stressed about the future.,Positive,0.91,Mindfulness,1
+148,15/09/2024 00:00,I feel stressed about the future.,Loneliness,-0.52,Social Therapy,4
+149,29/06/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,-0.56,CBT,5
+150,30/01/2025 00:00,I just don’t see the point in anything.,Positive,0.71,Mindfulness,4
+151,28/04/2024 00:00,I'm having trouble concentrating on anything.,Depression,-0.66,Mindfulness,2
+152,11/11/2024 00:00,I feel lonely and disconnected.,Depression,0.75,Self-care,2
+153,12/10/2024 00:00,I'm having trouble concentrating on anything.,Anxiety,0.45,Counseling,5
+154,26/11/2024 00:00,I feel stressed about the future.,Depression,0.14,Social Therapy,5
+155,07/10/2024 00:00,I feel happy and motivated today!,Depression,0.01,Social Therapy,1
+156,27/08/2024 00:00,I feel so overwhelmed with work.,Insomnia,-0.85,CBT,1
+157,02/10/2024 00:00,I just don’t see the point in anything.,Loneliness,-0.79,Self-care,5
+158,02/02/2025 00:00,I feel lonely and disconnected.,Positive,0.3,Mindfulness,4
+159,03/03/2024 00:00,I feel stressed about the future.,Anxiety,0.38,Self-care,5
+160,01/04/2024 00:00,I'm having trouble concentrating on anything.,Loneliness,0.19,CBT,4
+161,21/12/2024 00:00,My anxiety is getting worse.,Depression,-0.08,CBT,5
+162,28/06/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,-0.14,Self-care,4
+163,24/09/2024 00:00,I feel better after talking to someone.,Loneliness,-0.23,Self-care,5
+164,22/07/2024 00:00,My anxiety is getting worse.,Anxiety,-0.02,CBT,3
+165,01/06/2024 00:00,I feel so overwhelmed with work.,Anxiety,0.65,Self-care,1
+166,15/12/2024 00:00,I'm having trouble concentrating on anything.,Positive,0.82,Counseling,1
+167,28/12/2024 00:00,I feel happy and motivated today!,Insomnia,-0.84,Social Therapy,1
+168,19/11/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,-0.62,Counseling,1
+169,19/04/2024 00:00,I feel stressed about the future.,Insomnia,0.33,Mindfulness,1
+170,29/06/2024 00:00,"I'm feeling good today, had a nice walk!",Positive,0.23,Mindfulness,3
+171,10/08/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Positive,0.1,Mindfulness,4
+172,15/09/2024 00:00,I feel better after talking to someone.,Anxiety,0.61,Social Therapy,2
+173,25/09/2024 00:00,I feel stressed about the future.,Insomnia,-0.93,CBT,5
+174,22/08/2024 00:00,I just don’t see the point in anything.,Depression,0.1,Counseling,1
+175,15/12/2024 00:00,I'm having trouble concentrating on anything.,Depression,0.65,Self-care,5
+176,21/12/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,-0.49,Self-care,4
+177,15/01/2025 00:00,I feel so overwhelmed with work.,Loneliness,0.67,Self-care,2
+178,10/07/2024 00:00,My anxiety is getting worse.,Loneliness,0.97,Self-care,4
+179,08/01/2025 00:00,"I'm feeling good today, had a nice walk!",Insomnia,0.58,Counseling,2
+180,23/06/2024 00:00,I feel lonely and disconnected.,Anxiety,-0.68,Counseling,2
+181,13/12/2024 00:00,I just don’t see the point in anything.,Depression,0.65,Mindfulness,3
+182,17/07/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Positive,-0.96,CBT,2
+183,11/04/2024 00:00,I feel happy and motivated today!,Anxiety,-0.26,Social Therapy,3
+184,10/05/2024 00:00,I feel lonely and disconnected.,Anxiety,0.6,Self-care,5
+185,29/06/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,0.3,Self-care,4
+186,24/08/2024 00:00,"I'm feeling good today, had a nice walk!",Anxiety,-0.85,Social Therapy,3
+187,31/05/2024 00:00,I feel stressed about the future.,Depression,-0.68,Self-care,1
+188,14/04/2024 00:00,I feel happy and motivated today!,Depression,-0.24,Self-care,5
+189,17/10/2024 00:00,"I'm feeling good today, had a nice walk!",Insomnia,-0.85,Social Therapy,1
+190,19/04/2024 00:00,I feel so overwhelmed with work.,Anxiety,0.53,Self-care,4
+191,16/04/2024 00:00,I just don’t see the point in anything.,Insomnia,0.69,Mindfulness,1
+192,16/03/2024 00:00,I'm having trouble concentrating on anything.,Anxiety,0.03,Self-care,1
+193,14/05/2024 00:00,I feel so overwhelmed with work.,Positive,-0.66,Mindfulness,2
+194,21/07/2024 00:00,I feel stressed about the future.,Depression,-0.06,Mindfulness,1
+195,29/08/2024 00:00,I feel better after talking to someone.,Anxiety,-0.44,Self-care,2
+196,27/07/2024 00:00,I feel stressed about the future.,Anxiety,-0.59,Counseling,2
+197,10/07/2024 00:00,"I'm feeling good today, had a nice walk!",Anxiety,-0.18,Social Therapy,4
+198,13/12/2024 00:00,I feel better after talking to someone.,Positive,-0.55,Mindfulness,3
+199,19/05/2024 00:00,My anxiety is getting worse.,Loneliness,-0.56,Self-care,3
+200,06/05/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,0.99,CBT,5
+201,03/06/2024 00:00,I'm having trouble concentrating on anything.,Loneliness,0,Self-care,1
+202,30/05/2024 00:00,I feel better after talking to someone.,Loneliness,-0.7,Self-care,3
+203,12/07/2024 00:00,I feel better after talking to someone.,Loneliness,0.86,Self-care,3
+204,03/11/2024 00:00,My anxiety is getting worse.,Insomnia,0.03,Social Therapy,2
+205,24/03/2024 00:00,"I'm feeling good today, had a nice walk!",Insomnia,-0.38,Counseling,1
+206,23/09/2024 00:00,I feel stressed about the future.,Loneliness,-0.93,Social Therapy,1
+207,27/03/2024 00:00,I feel lonely and disconnected.,Positive,-0.08,Counseling,3
+208,29/10/2024 00:00,I feel lonely and disconnected.,Depression,-0.15,Self-care,3
+209,02/08/2024 00:00,"I'm feeling good today, had a nice walk!",Anxiety,0.06,CBT,5
+210,26/06/2024 00:00,I feel better after talking to someone.,Anxiety,0.79,Mindfulness,1
+211,26/07/2024 00:00,I just don’t see the point in anything.,Anxiety,0.11,Counseling,1
+212,03/11/2024 00:00,I'm having trouble concentrating on anything.,Anxiety,0.87,Social Therapy,3
+213,04/04/2024 00:00,I feel stressed about the future.,Anxiety,0.05,Social Therapy,4
+214,25/08/2024 00:00,I feel so overwhelmed with work.,Insomnia,0.38,Counseling,1
+215,05/12/2024 00:00,I feel so overwhelmed with work.,Insomnia,0.71,Mindfulness,4
+216,24/09/2024 00:00,I feel happy and motivated today!,Insomnia,0.76,Social Therapy,5
+217,30/11/2024 00:00,I feel happy and motivated today!,Loneliness,-0.63,Social Therapy,5
+218,05/03/2024 00:00,I feel lonely and disconnected.,Depression,-0.41,Counseling,5
+219,12/03/2024 00:00,"I'm feeling good today, had a nice walk!",Positive,-0.64,CBT,4
+220,25/04/2024 00:00,I feel so overwhelmed with work.,Positive,0.74,Counseling,3
+221,25/02/2025 00:00,I feel lonely and disconnected.,Depression,0.18,Mindfulness,4
+222,27/12/2024 00:00,I feel stressed about the future.,Loneliness,-0.1,Social Therapy,4
+223,04/05/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Loneliness,-0.3,Social Therapy,4
+224,14/07/2024 00:00,I feel happy and motivated today!,Anxiety,0.56,Self-care,3
+225,12/05/2024 00:00,I just don’t see the point in anything.,Depression,-0.22,CBT,2
+226,19/08/2024 00:00,I'm having trouble concentrating on anything.,Anxiety,0.7,Social Therapy,1
+227,09/07/2024 00:00,I just don’t see the point in anything.,Loneliness,-0.18,Counseling,5
+228,22/12/2024 00:00,My anxiety is getting worse.,Insomnia,0.11,Mindfulness,4
+229,10/11/2024 00:00,I feel stressed about the future.,Anxiety,-0.27,Self-care,2
+230,16/08/2024 00:00,I just don’t see the point in anything.,Loneliness,-0.53,Mindfulness,3
+231,17/07/2024 00:00,I feel lonely and disconnected.,Loneliness,0.41,CBT,1
+232,11/06/2024 00:00,I feel better after talking to someone.,Insomnia,-0.08,Mindfulness,5
+233,25/02/2025 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,-0.52,Counseling,3
+234,06/06/2024 00:00,I just don’t see the point in anything.,Insomnia,0.46,CBT,2
+235,14/06/2024 00:00,I just don’t see the point in anything.,Insomnia,0.78,Social Therapy,5
+236,07/12/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,0.89,CBT,3
+237,09/12/2024 00:00,I just don’t see the point in anything.,Loneliness,0.57,Social Therapy,2
+238,02/06/2024 00:00,I feel happy and motivated today!,Insomnia,-0.13,Social Therapy,1
+239,23/04/2024 00:00,I'm having trouble concentrating on anything.,Anxiety,-0.29,Self-care,1
+240,27/07/2024 00:00,I'm having trouble concentrating on anything.,Depression,-0.26,Counseling,4
+241,08/04/2024 00:00,I just don’t see the point in anything.,Anxiety,0.08,Mindfulness,4
+242,07/11/2024 00:00,I feel happy and motivated today!,Loneliness,0.82,CBT,3
+243,12/02/2025 00:00,I feel better after talking to someone.,Insomnia,-0.94,Mindfulness,4
+244,30/04/2024 00:00,My anxiety is getting worse.,Insomnia,0.49,Self-care,5
+245,14/03/2024 00:00,I just don’t see the point in anything.,Loneliness,-0.9,Mindfulness,5
+246,14/06/2024 00:00,I feel happy and motivated today!,Loneliness,0.16,Self-care,1
+247,08/03/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Depression,0.51,Self-care,3
+248,24/06/2024 00:00,I feel so overwhelmed with work.,Positive,-0.67,CBT,3
+249,06/02/2025 00:00,I feel happy and motivated today!,Positive,0.53,Counseling,4
+250,18/10/2024 00:00,I feel so overwhelmed with work.,Insomnia,0.67,Counseling,1
+251,10/08/2024 00:00,My anxiety is getting worse.,Anxiety,0.07,Self-care,4
+252,18/09/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,-0.6,Social Therapy,4
+253,25/06/2024 00:00,I feel so overwhelmed with work.,Anxiety,-0.21,Social Therapy,1
+254,07/11/2024 00:00,I just don’t see the point in anything.,Loneliness,0.87,Social Therapy,1
+255,25/08/2024 00:00,My anxiety is getting worse.,Positive,0.58,CBT,5
+256,20/09/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Loneliness,-0.72,Self-care,2
+257,08/03/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,-0.85,Counseling,4
+258,13/07/2024 00:00,I feel better after talking to someone.,Anxiety,-0.69,CBT,3
+259,30/10/2024 00:00,I just don’t see the point in anything.,Loneliness,-0.06,Counseling,1
+260,20/10/2024 00:00,I feel so overwhelmed with work.,Insomnia,-0.02,Self-care,3
+261,18/02/2025 00:00,I feel lonely and disconnected.,Positive,0.57,Social Therapy,5
+262,24/03/2024 00:00,I feel so overwhelmed with work.,Insomnia,0.93,Counseling,2
+263,07/02/2025 00:00,I'm having trouble concentrating on anything.,Insomnia,0.9,Social Therapy,5
+264,12/06/2024 00:00,I'm having trouble concentrating on anything.,Depression,0.75,Mindfulness,4
+265,12/06/2024 00:00,I just don’t see the point in anything.,Depression,0.16,Self-care,3
+266,15/10/2024 00:00,I feel better after talking to someone.,Positive,0.48,Self-care,2
+267,01/10/2024 00:00,I just don’t see the point in anything.,Anxiety,-0.78,Self-care,1
+268,29/12/2024 00:00,I feel stressed about the future.,Insomnia,0.16,CBT,1
+269,11/01/2025 00:00,My anxiety is getting worse.,Loneliness,-0.67,Mindfulness,5
+270,19/09/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Positive,-0.35,Self-care,5
+271,26/10/2024 00:00,I just don’t see the point in anything.,Depression,-0.96,Mindfulness,2
+272,21/08/2024 00:00,I feel lonely and disconnected.,Insomnia,0.47,Counseling,2
+273,03/02/2025 00:00,"I can't sleep at night, my thoughts won't stop.",Positive,-0.52,Counseling,2
+274,23/09/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,0.61,Mindfulness,5
+275,05/12/2024 00:00,I feel better after talking to someone.,Loneliness,-0.8,Social Therapy,4
+276,15/01/2025 00:00,My anxiety is getting worse.,Anxiety,0.85,Self-care,1
+277,27/02/2025 00:00,I feel better after talking to someone.,Loneliness,0.06,Self-care,1
+278,14/05/2024 00:00,I'm having trouble concentrating on anything.,Loneliness,0.21,Social Therapy,2
+279,12/04/2024 00:00,I feel better after talking to someone.,Insomnia,0.95,Mindfulness,1
+280,11/07/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,-0.09,Social Therapy,3
+281,24/02/2025 00:00,"I can't sleep at night, my thoughts won't stop.",Positive,0.61,CBT,5
+282,03/03/2024 00:00,I feel stressed about the future.,Loneliness,-0.24,Social Therapy,1
+283,12/01/2025 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,0.96,CBT,1
+284,09/09/2024 00:00,I'm having trouble concentrating on anything.,Loneliness,0.54,Mindfulness,2
+285,20/06/2024 00:00,I feel lonely and disconnected.,Loneliness,-0.16,Counseling,4
+286,29/09/2024 00:00,I feel happy and motivated today!,Loneliness,0.93,Self-care,3
+287,13/01/2025 00:00,My anxiety is getting worse.,Anxiety,-0.14,Counseling,3
+288,03/12/2024 00:00,I'm having trouble concentrating on anything.,Positive,0.42,Mindfulness,1
+289,17/06/2024 00:00,I feel better after talking to someone.,Positive,0.11,CBT,3
+290,24/09/2024 00:00,I'm having trouble concentrating on anything.,Anxiety,-0.35,Self-care,2
+291,25/08/2024 00:00,I feel stressed about the future.,Depression,-0.33,Self-care,2
+292,17/04/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Depression,-0.96,Self-care,1
+293,29/08/2024 00:00,I feel better after talking to someone.,Loneliness,-0.53,CBT,1
+294,24/02/2025 00:00,I feel happy and motivated today!,Depression,-0.49,CBT,4
+295,14/08/2024 00:00,My anxiety is getting worse.,Depression,-0.79,Social Therapy,1
+296,21/02/2025 00:00,I feel happy and motivated today!,Depression,0.91,Counseling,2
+297,07/05/2024 00:00,I feel lonely and disconnected.,Depression,-0.68,Mindfulness,4
+298,23/04/2024 00:00,I feel lonely and disconnected.,Depression,0.17,CBT,2
+299,13/09/2024 00:00,My anxiety is getting worse.,Depression,-0.44,Social Therapy,5
+300,20/04/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,-0.59,Counseling,2
+301,25/06/2024 00:00,My anxiety is getting worse.,Depression,0.3,Counseling,5
+302,12/10/2024 00:00,My anxiety is getting worse.,Positive,0.63,Social Therapy,1
+303,01/02/2025 00:00,I feel so overwhelmed with work.,Anxiety,0.42,Mindfulness,3
+304,05/05/2024 00:00,I feel better after talking to someone.,Positive,-0.68,Mindfulness,4
+305,22/09/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Depression,-0.9,Social Therapy,2
+306,05/05/2024 00:00,My anxiety is getting worse.,Depression,0.96,Social Therapy,2
+307,11/09/2024 00:00,I'm having trouble concentrating on anything.,Depression,0.87,Mindfulness,5
+308,11/11/2024 00:00,I feel better after talking to someone.,Loneliness,-0.11,Self-care,4
+309,23/08/2024 00:00,I feel better after talking to someone.,Loneliness,0.29,Self-care,2
+310,20/05/2024 00:00,I feel better after talking to someone.,Depression,0.29,Self-care,5
+311,09/11/2024 00:00,My anxiety is getting worse.,Positive,0.44,Counseling,1
+312,28/05/2024 00:00,I feel better after talking to someone.,Insomnia,0.52,Social Therapy,4
+313,25/07/2024 00:00,I feel happy and motivated today!,Positive,-0.16,Social Therapy,4
+314,04/01/2025 00:00,I feel lonely and disconnected.,Positive,0.5,Self-care,2
+315,18/02/2025 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,-0.37,Mindfulness,1
+316,13/07/2024 00:00,My anxiety is getting worse.,Loneliness,-0.22,Mindfulness,2
+317,22/07/2024 00:00,My anxiety is getting worse.,Depression,-0.57,Counseling,3
+318,02/01/2025 00:00,I feel stressed about the future.,Anxiety,-0.06,Counseling,3
+319,05/12/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,0.83,Mindfulness,2
+320,22/09/2024 00:00,I feel happy and motivated today!,Depression,0.28,Mindfulness,4
+321,13/07/2024 00:00,I'm having trouble concentrating on anything.,Positive,-0.81,Self-care,4
+322,07/10/2024 00:00,I'm having trouble concentrating on anything.,Anxiety,0.53,Counseling,2
+323,06/09/2024 00:00,I feel so overwhelmed with work.,Positive,-0.16,Self-care,2
+324,16/04/2024 00:00,My anxiety is getting worse.,Loneliness,-0.08,Self-care,4
+325,15/10/2024 00:00,I feel happy and motivated today!,Insomnia,0.32,Social Therapy,3
+326,28/05/2024 00:00,I feel lonely and disconnected.,Positive,-0.6,CBT,2
+327,14/10/2024 00:00,I feel stressed about the future.,Loneliness,-0.48,Social Therapy,3
+328,07/03/2024 00:00,I feel stressed about the future.,Depression,0.88,Mindfulness,5
+329,30/04/2024 00:00,I feel lonely and disconnected.,Loneliness,-0.24,Mindfulness,1
+330,03/05/2024 00:00,I feel stressed about the future.,Insomnia,0.66,Self-care,5
+331,07/10/2024 00:00,I feel so overwhelmed with work.,Positive,0.16,Mindfulness,2
+332,01/01/2025 00:00,I feel happy and motivated today!,Depression,0.92,CBT,5
+333,06/08/2024 00:00,I feel happy and motivated today!,Insomnia,-0.35,Counseling,1
+334,17/08/2024 00:00,I feel happy and motivated today!,Positive,-0.4,Counseling,3
+335,28/07/2024 00:00,My anxiety is getting worse.,Anxiety,0.23,Counseling,1
+336,20/09/2024 00:00,I feel happy and motivated today!,Anxiety,0.31,Self-care,5
+337,08/12/2024 00:00,"I'm feeling good today, had a nice walk!",Anxiety,0,Counseling,3
+338,10/07/2024 00:00,My anxiety is getting worse.,Insomnia,0.18,Social Therapy,5
+339,26/10/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,-0.57,Social Therapy,1
+340,09/01/2025 00:00,My anxiety is getting worse.,Depression,0.48,CBT,3
+341,04/07/2024 00:00,I feel better after talking to someone.,Depression,0.26,Self-care,5
+342,14/04/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,0.84,Social Therapy,5
+343,30/01/2025 00:00,I feel so overwhelmed with work.,Insomnia,0.45,Self-care,3
+344,15/02/2025 00:00,I'm having trouble concentrating on anything.,Insomnia,-0.28,CBT,5
+345,02/08/2024 00:00,I feel lonely and disconnected.,Anxiety,-0.9,Self-care,4
+346,02/03/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,0.69,Self-care,3
+347,06/07/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,0.21,CBT,2
+348,20/08/2024 00:00,I feel happy and motivated today!,Loneliness,-0.38,Mindfulness,4
+349,11/05/2024 00:00,I feel better after talking to someone.,Insomnia,-0.29,Counseling,3
+350,18/01/2025 00:00,My anxiety is getting worse.,Positive,0.2,Mindfulness,4
+351,04/04/2024 00:00,I feel better after talking to someone.,Loneliness,-0.57,Mindfulness,4
+352,16/01/2025 00:00,I feel happy and motivated today!,Loneliness,-0.43,Mindfulness,4
+353,11/08/2024 00:00,I feel happy and motivated today!,Positive,0.96,Self-care,2
+354,29/06/2024 00:00,I'm having trouble concentrating on anything.,Anxiety,-0.88,Social Therapy,1
+355,11/10/2024 00:00,I just don’t see the point in anything.,Positive,0.33,CBT,1
+356,16/10/2024 00:00,I feel stressed about the future.,Depression,-0.42,CBT,3
+357,03/06/2024 00:00,My anxiety is getting worse.,Depression,-0.78,CBT,3
+358,24/02/2025 00:00,"I'm feeling good today, had a nice walk!",Loneliness,0.55,Counseling,5
+359,31/01/2025 00:00,I just don’t see the point in anything.,Depression,0.51,Counseling,1
+360,17/07/2024 00:00,I feel lonely and disconnected.,Anxiety,0.07,Social Therapy,2
+361,25/01/2025 00:00,I feel better after talking to someone.,Positive,0.73,CBT,2
+362,27/04/2024 00:00,I just don’t see the point in anything.,Anxiety,0.94,Social Therapy,3
+363,16/02/2025 00:00,I feel happy and motivated today!,Insomnia,-0.45,Social Therapy,5
+364,05/12/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,-0.2,CBT,4
+365,06/01/2025 00:00,I'm having trouble concentrating on anything.,Anxiety,-0.24,CBT,2
+366,10/08/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Depression,0.93,Counseling,3
+367,15/10/2024 00:00,I feel lonely and disconnected.,Loneliness,0.76,Mindfulness,2
+368,17/11/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,0.39,Mindfulness,3
+369,25/06/2024 00:00,I feel lonely and disconnected.,Insomnia,0.2,Mindfulness,4
+370,12/02/2025 00:00,I feel stressed about the future.,Anxiety,-0.77,Mindfulness,1
+371,18/12/2024 00:00,I just don’t see the point in anything.,Loneliness,0,Counseling,4
+372,17/06/2024 00:00,"I'm feeling good today, had a nice walk!",Anxiety,-0.77,Counseling,3
+373,15/03/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,0,Self-care,3
+374,28/03/2024 00:00,I feel lonely and disconnected.,Depression,0.62,Social Therapy,1
+375,04/12/2024 00:00,I feel lonely and disconnected.,Depression,0.58,Counseling,5
+376,05/01/2025 00:00,I feel stressed about the future.,Insomnia,0.41,Social Therapy,3
+377,26/11/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Loneliness,-0.93,Counseling,1
+378,29/09/2024 00:00,"I'm feeling good today, had a nice walk!",Positive,0.49,Social Therapy,1
+379,11/06/2024 00:00,My anxiety is getting worse.,Positive,-0.18,Self-care,5
+380,06/12/2024 00:00,I feel lonely and disconnected.,Depression,0.72,Social Therapy,2
+381,06/06/2024 00:00,I'm having trouble concentrating on anything.,Loneliness,0.17,Social Therapy,1
+382,05/12/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,-0.46,Mindfulness,4
+383,17/10/2024 00:00,I feel better after talking to someone.,Depression,0.69,Self-care,1
+384,27/11/2024 00:00,"I'm feeling good today, had a nice walk!",Insomnia,-0.37,Mindfulness,1
+385,26/06/2024 00:00,I just don’t see the point in anything.,Anxiety,0.8,Social Therapy,5
+386,05/11/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,0.04,Mindfulness,2
+387,07/06/2024 00:00,I feel better after talking to someone.,Positive,0.43,Mindfulness,3
+388,28/11/2024 00:00,I feel lonely and disconnected.,Insomnia,0.16,CBT,3
+389,07/10/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,-0.76,Self-care,5
+390,24/06/2024 00:00,I feel stressed about the future.,Positive,0.41,CBT,2
+391,01/12/2024 00:00,My anxiety is getting worse.,Insomnia,0.06,Self-care,5
+392,04/06/2024 00:00,My anxiety is getting worse.,Loneliness,-0.02,Counseling,3
+393,27/12/2024 00:00,I feel stressed about the future.,Loneliness,0.29,Self-care,3
+394,17/03/2024 00:00,I feel better after talking to someone.,Loneliness,-0.4,Social Therapy,3
+395,21/06/2024 00:00,I feel lonely and disconnected.,Depression,-0.98,Social Therapy,5
+396,15/10/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Loneliness,-0.15,Counseling,4
+397,05/08/2024 00:00,My anxiety is getting worse.,Loneliness,0.56,Counseling,1
+398,29/10/2024 00:00,"I'm feeling good today, had a nice walk!",Anxiety,-0.48,Self-care,2
+399,03/12/2024 00:00,I feel so overwhelmed with work.,Depression,0.94,CBT,5
+400,12/10/2024 00:00,I just don’t see the point in anything.,Depression,0.64,Self-care,5
+401,20/07/2024 00:00,I'm having trouble concentrating on anything.,Positive,-0.19,CBT,1
+402,19/03/2024 00:00,I feel better after talking to someone.,Loneliness,-0.46,Social Therapy,1
+403,20/08/2024 00:00,I feel stressed about the future.,Depression,-0.97,Mindfulness,2
+404,22/04/2024 00:00,My anxiety is getting worse.,Positive,-0.1,Counseling,4
+405,06/08/2024 00:00,I feel happy and motivated today!,Depression,-0.49,Self-care,3
+406,18/02/2025 00:00,I feel lonely and disconnected.,Insomnia,-0.72,Social Therapy,4
+407,10/05/2024 00:00,I feel stressed about the future.,Insomnia,-0.01,Social Therapy,2
+408,21/02/2025 00:00,I just don’t see the point in anything.,Depression,0.58,Self-care,1
+409,18/05/2024 00:00,I'm having trouble concentrating on anything.,Loneliness,-0.49,Self-care,4
+410,02/05/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,0.54,Social Therapy,4
+411,09/05/2024 00:00,I just don’t see the point in anything.,Loneliness,0.14,Mindfulness,3
+412,03/06/2024 00:00,I'm having trouble concentrating on anything.,Depression,0.15,Mindfulness,3
+413,05/11/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,-0.35,Self-care,5
+414,21/07/2024 00:00,My anxiety is getting worse.,Insomnia,0.79,Self-care,5
+415,13/11/2024 00:00,I feel better after talking to someone.,Positive,-0.6,Social Therapy,5
+416,24/08/2024 00:00,I feel stressed about the future.,Depression,0.87,Social Therapy,5
+417,22/02/2025 00:00,I feel better after talking to someone.,Insomnia,-0.82,Self-care,2
+418,01/09/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,0.05,Self-care,3
+419,21/12/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,0.99,Mindfulness,1
+420,26/09/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,0.27,Social Therapy,2
+421,20/07/2024 00:00,I feel better after talking to someone.,Anxiety,0.52,Counseling,1
+422,18/04/2024 00:00,I just don’t see the point in anything.,Positive,0.82,CBT,2
+423,22/01/2025 00:00,"I can't sleep at night, my thoughts won't stop.",Positive,-0.52,Counseling,5
+424,31/07/2024 00:00,I feel happy and motivated today!,Depression,0.83,CBT,2
+425,14/01/2025 00:00,I feel so overwhelmed with work.,Depression,0.16,Self-care,3
+426,25/05/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,0.53,Self-care,4
+427,03/04/2024 00:00,I feel stressed about the future.,Positive,0.75,Counseling,2
+428,19/01/2025 00:00,I feel lonely and disconnected.,Loneliness,0.5,Social Therapy,1
+429,22/09/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,0.97,CBT,4
+430,22/08/2024 00:00,My anxiety is getting worse.,Positive,0.21,Counseling,3
+431,13/11/2024 00:00,I just don’t see the point in anything.,Depression,-0.65,CBT,5
+432,12/04/2024 00:00,"I'm feeling good today, had a nice walk!",Anxiety,0.43,Counseling,5
+433,09/11/2024 00:00,My anxiety is getting worse.,Loneliness,-0.02,CBT,5
+434,08/08/2024 00:00,I feel so overwhelmed with work.,Anxiety,0.62,Counseling,4
+435,02/01/2025 00:00,I feel happy and motivated today!,Anxiety,-0.69,Self-care,5
+436,11/06/2024 00:00,I feel better after talking to someone.,Insomnia,0.69,CBT,1
+437,08/12/2024 00:00,I'm having trouble concentrating on anything.,Depression,-0.39,Self-care,4
+438,02/03/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Loneliness,0.67,Counseling,2
+439,23/11/2024 00:00,I just don’t see the point in anything.,Depression,-0.73,Counseling,2
+440,23/07/2024 00:00,I feel stressed about the future.,Depression,0.31,Social Therapy,4
+441,03/01/2025 00:00,I feel so overwhelmed with work.,Anxiety,0.1,Counseling,3
+442,05/08/2024 00:00,I feel stressed about the future.,Depression,-0.17,Mindfulness,5
+443,12/04/2024 00:00,I feel so overwhelmed with work.,Depression,-0.61,Social Therapy,4
+444,17/07/2024 00:00,I feel stressed about the future.,Depression,-0.58,Social Therapy,5
+445,31/12/2024 00:00,I feel happy and motivated today!,Anxiety,-0.02,Counseling,3
+446,29/01/2025 00:00,I'm having trouble concentrating on anything.,Depression,0.45,CBT,4
+447,15/12/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,0.18,Mindfulness,1
+448,04/08/2024 00:00,I feel stressed about the future.,Positive,-0.88,Social Therapy,2
+449,12/05/2024 00:00,My anxiety is getting worse.,Depression,0.19,Self-care,2
+450,10/02/2025 00:00,I feel happy and motivated today!,Depression,-0.71,CBT,3
+451,02/12/2024 00:00,I feel happy and motivated today!,Loneliness,-0.57,Mindfulness,4
+452,03/07/2024 00:00,My anxiety is getting worse.,Anxiety,-0.98,Self-care,2
+453,26/10/2024 00:00,My anxiety is getting worse.,Loneliness,-0.34,Counseling,3
+454,02/08/2024 00:00,I'm having trouble concentrating on anything.,Positive,-0.43,Counseling,4
+455,05/06/2024 00:00,I feel stressed about the future.,Depression,0.84,Self-care,2
+456,30/06/2024 00:00,I'm having trouble concentrating on anything.,Loneliness,0.83,Mindfulness,3
+457,24/05/2024 00:00,I feel happy and motivated today!,Loneliness,0.22,CBT,1
+458,11/12/2024 00:00,I feel stressed about the future.,Depression,0.42,Social Therapy,5
+459,20/11/2024 00:00,I'm having trouble concentrating on anything.,Loneliness,0.64,Social Therapy,4
+460,26/05/2024 00:00,I feel so overwhelmed with work.,Positive,-0.82,Self-care,1
+461,23/06/2024 00:00,I feel happy and motivated today!,Loneliness,0.95,CBT,4
+462,14/11/2024 00:00,I feel happy and motivated today!,Loneliness,0.55,Social Therapy,3
+463,19/04/2024 00:00,I just don’t see the point in anything.,Loneliness,-0.7,Social Therapy,1
+464,15/05/2024 00:00,I feel better after talking to someone.,Loneliness,-0.85,Self-care,1
+465,18/02/2025 00:00,I feel stressed about the future.,Anxiety,-0.02,Mindfulness,2
+466,13/05/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,-0.04,Counseling,2
+467,25/06/2024 00:00,I feel happy and motivated today!,Positive,-0.98,Self-care,3
+468,16/07/2024 00:00,I feel so overwhelmed with work.,Anxiety,0.98,Self-care,3
+469,21/01/2025 00:00,I feel stressed about the future.,Anxiety,0.87,Self-care,4
+470,13/05/2024 00:00,I feel better after talking to someone.,Anxiety,-0.72,CBT,2
+471,24/11/2024 00:00,"I'm feeling good today, had a nice walk!",Insomnia,0.91,Self-care,2
+472,07/10/2024 00:00,I feel so overwhelmed with work.,Anxiety,0.11,Self-care,3
+473,03/03/2024 00:00,I feel so overwhelmed with work.,Depression,-0.18,CBT,3
+474,01/12/2024 00:00,My anxiety is getting worse.,Depression,0.61,Social Therapy,3
+475,06/10/2024 00:00,I just don’t see the point in anything.,Positive,-0.78,Social Therapy,2
+476,27/11/2024 00:00,I just don’t see the point in anything.,Positive,-0.19,Counseling,3
+477,14/09/2024 00:00,I feel lonely and disconnected.,Anxiety,-0.34,CBT,4
+478,09/06/2024 00:00,I feel so overwhelmed with work.,Depression,-0.44,Self-care,2
+479,02/05/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,0.29,Social Therapy,1
+480,14/01/2025 00:00,My anxiety is getting worse.,Positive,0.68,CBT,5
+481,03/08/2024 00:00,My anxiety is getting worse.,Insomnia,0.71,Social Therapy,3
+482,13/05/2024 00:00,I feel better after talking to someone.,Loneliness,-0.49,Mindfulness,1
+483,12/12/2024 00:00,I just don’t see the point in anything.,Anxiety,-0.95,Social Therapy,5
+484,21/03/2024 00:00,"I'm feeling good today, had a nice walk!",Anxiety,0.83,Counseling,2
+485,12/12/2024 00:00,I just don’t see the point in anything.,Depression,0.35,Mindfulness,4
+486,03/03/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,-0.81,Mindfulness,3
+487,08/12/2024 00:00,"I'm feeling good today, had a nice walk!",Anxiety,-0.02,Counseling,1
+488,08/06/2024 00:00,I feel better after talking to someone.,Depression,0.75,CBT,3
+489,25/07/2024 00:00,My anxiety is getting worse.,Depression,-0.47,Counseling,1
+490,22/02/2025 00:00,I just don’t see the point in anything.,Loneliness,-0.75,Self-care,4
+491,22/05/2024 00:00,My anxiety is getting worse.,Depression,-0.56,Counseling,3
+492,08/02/2025 00:00,I feel so overwhelmed with work.,Anxiety,-0.17,Mindfulness,5
+493,28/03/2024 00:00,I feel so overwhelmed with work.,Positive,0.52,Social Therapy,4
+494,20/02/2025 00:00,I feel happy and motivated today!,Insomnia,-0.65,Social Therapy,5
+495,27/07/2024 00:00,I feel better after talking to someone.,Insomnia,0.42,Social Therapy,4
+496,25/09/2024 00:00,I feel lonely and disconnected.,Loneliness,-0.53,CBT,2
+497,27/05/2024 00:00,I feel lonely and disconnected.,Depression,-0.06,CBT,2
+498,09/10/2024 00:00,I feel so overwhelmed with work.,Positive,-0.88,Self-care,4
+499,22/12/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,-0.55,Mindfulness,1
+500,14/05/2024 00:00,I just don’t see the point in anything.,Positive,-0.01,Social Therapy,2
+501,31/10/2024 00:00,I'm having trouble concentrating on anything.,Positive,-0.97,Counseling,5
+502,09/03/2024 00:00,I feel happy and motivated today!,Insomnia,-0.47,Social Therapy,2
+503,07/07/2024 00:00,I feel happy and motivated today!,Loneliness,0.13,Counseling,2
+504,21/01/2025 00:00,I feel happy and motivated today!,Insomnia,-0.09,Self-care,1
+505,25/07/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,-0.23,Social Therapy,3
+506,26/01/2025 00:00,I just don’t see the point in anything.,Positive,0.98,Counseling,2
+507,23/03/2024 00:00,I just don’t see the point in anything.,Positive,-0.17,Counseling,4
+508,05/09/2024 00:00,I just don’t see the point in anything.,Depression,-0.05,Self-care,4
+509,11/06/2024 00:00,I feel better after talking to someone.,Anxiety,-0.79,Self-care,4
+510,05/07/2024 00:00,I just don’t see the point in anything.,Loneliness,-0.44,Self-care,3
+511,10/02/2025 00:00,I just don’t see the point in anything.,Insomnia,0.58,Social Therapy,2
+512,09/09/2024 00:00,I feel stressed about the future.,Depression,0.15,CBT,4
+513,30/09/2024 00:00,I feel happy and motivated today!,Anxiety,0.98,Mindfulness,5
+514,10/03/2024 00:00,I feel better after talking to someone.,Depression,-0.51,Counseling,5
+515,22/11/2024 00:00,I feel so overwhelmed with work.,Anxiety,-0.82,CBT,1
+516,28/12/2024 00:00,My anxiety is getting worse.,Insomnia,0.38,CBT,4
+517,13/11/2024 00:00,I feel lonely and disconnected.,Depression,0.25,Mindfulness,2
+518,23/03/2024 00:00,I feel better after talking to someone.,Anxiety,0.86,Counseling,1
+519,28/07/2024 00:00,I feel better after talking to someone.,Loneliness,0.11,CBT,5
+520,19/03/2024 00:00,I feel stressed about the future.,Positive,0,CBT,1
+521,13/04/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,0.79,Counseling,2
+522,23/04/2024 00:00,I feel happy and motivated today!,Insomnia,-0.75,CBT,4
+523,01/11/2024 00:00,I feel so overwhelmed with work.,Loneliness,-0.36,Social Therapy,5
+524,20/02/2025 00:00,I feel better after talking to someone.,Loneliness,0.16,Mindfulness,5
+525,19/09/2024 00:00,I feel better after talking to someone.,Insomnia,-0.97,Mindfulness,2
+526,15/10/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,0.37,CBT,2
+527,25/03/2024 00:00,I'm having trouble concentrating on anything.,Loneliness,-0.92,Social Therapy,5
+528,24/10/2024 00:00,I feel stressed about the future.,Insomnia,-0.26,Mindfulness,4
+529,25/09/2024 00:00,My anxiety is getting worse.,Positive,0.85,Counseling,5
+530,17/01/2025 00:00,I just don’t see the point in anything.,Anxiety,0.86,CBT,5
+531,11/12/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Positive,0.55,Self-care,3
+532,20/02/2025 00:00,I'm having trouble concentrating on anything.,Loneliness,-0.8,Self-care,4
+533,06/02/2025 00:00,I'm having trouble concentrating on anything.,Positive,0.51,Social Therapy,1
+534,02/04/2024 00:00,I feel happy and motivated today!,Loneliness,0.96,Counseling,2
+535,06/12/2024 00:00,I feel lonely and disconnected.,Depression,0.88,Counseling,2
+536,19/01/2025 00:00,"I'm feeling good today, had a nice walk!",Insomnia,0.13,CBT,1
+537,15/11/2024 00:00,I feel lonely and disconnected.,Depression,0.72,Mindfulness,3
+538,07/01/2025 00:00,"I'm feeling good today, had a nice walk!",Loneliness,-0.37,Mindfulness,4
+539,05/05/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,0.6,Mindfulness,2
+540,24/03/2024 00:00,I feel so overwhelmed with work.,Positive,-0.14,Counseling,3
+541,30/10/2024 00:00,I'm having trouble concentrating on anything.,Loneliness,0.31,Counseling,5
+542,03/01/2025 00:00,I feel stressed about the future.,Depression,0.17,Mindfulness,1
+543,15/10/2024 00:00,My anxiety is getting worse.,Anxiety,-0.51,CBT,4
+544,14/08/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,-0.85,Mindfulness,1
+545,10/07/2024 00:00,I feel stressed about the future.,Depression,-0.29,Self-care,5
+546,03/04/2024 00:00,I feel so overwhelmed with work.,Positive,-0.05,CBT,1
+547,30/07/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,-0.77,Mindfulness,4
+548,16/07/2024 00:00,I feel so overwhelmed with work.,Loneliness,0.61,Self-care,1
+549,17/10/2024 00:00,I feel happy and motivated today!,Loneliness,0.56,Counseling,3
+550,22/09/2024 00:00,My anxiety is getting worse.,Insomnia,-0.88,Self-care,3
+551,28/08/2024 00:00,I feel so overwhelmed with work.,Loneliness,0.82,Counseling,4
+552,04/11/2024 00:00,I feel so overwhelmed with work.,Depression,-0.36,Counseling,5
+553,29/03/2024 00:00,I feel happy and motivated today!,Positive,-0.25,Counseling,2
+554,21/09/2024 00:00,I just don’t see the point in anything.,Anxiety,0.26,CBT,2
+555,20/09/2024 00:00,I feel happy and motivated today!,Insomnia,-0.71,Mindfulness,2
+556,14/09/2024 00:00,I feel lonely and disconnected.,Insomnia,-0.15,Self-care,2
+557,20/03/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,-0.54,Self-care,4
+558,04/12/2024 00:00,I feel so overwhelmed with work.,Insomnia,-0.85,Counseling,1
+559,10/08/2024 00:00,I feel lonely and disconnected.,Insomnia,-0.42,Social Therapy,5
+560,12/02/2025 00:00,I feel stressed about the future.,Depression,0.87,Mindfulness,1
+561,25/08/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,0.39,Mindfulness,3
+562,05/06/2024 00:00,I'm having trouble concentrating on anything.,Loneliness,0.91,Mindfulness,2
+563,06/03/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,0.28,Social Therapy,4
+564,05/12/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,-0.12,Mindfulness,5
+565,20/07/2024 00:00,I'm having trouble concentrating on anything.,Loneliness,-0.42,CBT,5
+566,05/08/2024 00:00,"I'm feeling good today, had a nice walk!",Insomnia,-0.38,Mindfulness,4
+567,14/03/2024 00:00,"I'm feeling good today, had a nice walk!",Insomnia,0.76,Social Therapy,2
+568,13/06/2024 00:00,I feel better after talking to someone.,Depression,-0.48,CBT,5
+569,04/01/2025 00:00,I feel happy and motivated today!,Depression,-0.66,Counseling,3
+570,24/01/2025 00:00,I feel happy and motivated today!,Positive,-0.24,Self-care,5
+571,11/06/2024 00:00,I feel stressed about the future.,Anxiety,0.34,Self-care,1
+572,10/02/2025 00:00,I feel stressed about the future.,Insomnia,0.96,Social Therapy,5
+573,24/07/2024 00:00,I feel happy and motivated today!,Positive,-0.27,Counseling,1
+574,10/12/2024 00:00,I just don’t see the point in anything.,Depression,-0.56,CBT,4
+575,08/11/2024 00:00,I feel better after talking to someone.,Positive,-0.75,CBT,3
+576,21/01/2025 00:00,I feel lonely and disconnected.,Loneliness,0.64,Self-care,5
+577,01/01/2025 00:00,I just don’t see the point in anything.,Depression,0.83,Mindfulness,2
+578,01/06/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,-0.54,Mindfulness,3
+579,01/08/2024 00:00,I'm having trouble concentrating on anything.,Positive,0.83,Mindfulness,3
+580,18/09/2024 00:00,I feel lonely and disconnected.,Depression,-0.68,Mindfulness,5
+581,19/09/2024 00:00,I feel lonely and disconnected.,Depression,-0.76,CBT,4
+582,06/09/2024 00:00,I feel stressed about the future.,Positive,0.73,Counseling,1
+583,11/08/2024 00:00,I feel stressed about the future.,Loneliness,0.86,Self-care,4
+584,31/08/2024 00:00,I just don’t see the point in anything.,Anxiety,0.03,Mindfulness,4
+585,22/04/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Depression,0.53,Social Therapy,2
+586,17/04/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Positive,-0.73,Mindfulness,4
+587,15/12/2024 00:00,I just don’t see the point in anything.,Positive,-0.17,Social Therapy,1
+588,21/07/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,0.84,Self-care,5
+589,03/11/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,0.79,Counseling,5
+590,04/06/2024 00:00,I feel better after talking to someone.,Depression,0.01,Self-care,4
+591,18/07/2024 00:00,I feel lonely and disconnected.,Depression,0.58,Mindfulness,4
+592,01/10/2024 00:00,I feel lonely and disconnected.,Depression,-0.03,Social Therapy,1
+593,22/09/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,0.84,CBT,4
+594,29/04/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,0.42,Self-care,4
+595,20/10/2024 00:00,I feel better after talking to someone.,Positive,-0.61,CBT,5
+596,24/01/2025 00:00,I feel so overwhelmed with work.,Loneliness,0.92,Self-care,5
+597,03/07/2024 00:00,I feel stressed about the future.,Anxiety,-0.62,Self-care,5
+598,26/10/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,-0.62,Counseling,2
+599,19/06/2024 00:00,I feel stressed about the future.,Depression,-0.72,Counseling,2
+600,28/02/2025 00:00,I feel better after talking to someone.,Loneliness,0.16,Mindfulness,2
+601,25/06/2024 00:00,I'm having trouble concentrating on anything.,Anxiety,-0.78,Social Therapy,1
+602,16/10/2024 00:00,My anxiety is getting worse.,Depression,0.04,CBT,2
+603,12/04/2024 00:00,I just don’t see the point in anything.,Depression,0.65,Counseling,3
+604,20/05/2024 00:00,I just don’t see the point in anything.,Depression,0.43,Self-care,3
+605,10/02/2025 00:00,I feel happy and motivated today!,Insomnia,0.93,Mindfulness,2
+606,11/05/2024 00:00,I feel so overwhelmed with work.,Loneliness,0.96,Counseling,3
+607,12/08/2024 00:00,I'm having trouble concentrating on anything.,Depression,-0.6,Counseling,4
+608,02/06/2024 00:00,My anxiety is getting worse.,Depression,0.37,Social Therapy,1
+609,30/05/2024 00:00,I feel better after talking to someone.,Depression,-0.75,Counseling,4
+610,16/09/2024 00:00,I feel so overwhelmed with work.,Loneliness,0.75,Self-care,3
+611,02/07/2024 00:00,I'm having trouble concentrating on anything.,Positive,-0.88,Social Therapy,5
+612,28/07/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,-0.55,Counseling,1
+613,04/10/2024 00:00,I feel so overwhelmed with work.,Insomnia,0.6,CBT,2
+614,07/02/2025 00:00,My anxiety is getting worse.,Loneliness,-0.92,Counseling,4
+615,10/10/2024 00:00,I feel better after talking to someone.,Positive,0.02,Counseling,2
+616,27/06/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Loneliness,-0.58,CBT,5
+617,14/02/2025 00:00,I feel stressed about the future.,Insomnia,0.88,Social Therapy,4
+618,26/12/2024 00:00,I'm having trouble concentrating on anything.,Depression,0.26,Social Therapy,5
+619,12/11/2024 00:00,I feel stressed about the future.,Insomnia,-0.5,Mindfulness,1
+620,22/05/2024 00:00,I just don’t see the point in anything.,Loneliness,-0.87,Social Therapy,4
+621,14/06/2024 00:00,I feel better after talking to someone.,Loneliness,0.05,Counseling,5
+622,31/10/2024 00:00,I feel better after talking to someone.,Anxiety,0.32,CBT,2
+623,11/03/2024 00:00,I feel lonely and disconnected.,Loneliness,0.95,Social Therapy,5
+624,23/12/2024 00:00,I feel happy and motivated today!,Positive,-0.43,Self-care,2
+625,09/03/2024 00:00,I feel happy and motivated today!,Positive,-0.19,Mindfulness,2
+626,05/11/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Depression,0.79,CBT,5
+627,27/01/2025 00:00,I feel happy and motivated today!,Positive,0.3,CBT,3
+628,01/07/2024 00:00,I just don’t see the point in anything.,Positive,0.93,CBT,4
+629,20/06/2024 00:00,I feel better after talking to someone.,Anxiety,-0.69,Social Therapy,1
+630,19/04/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,0.29,Self-care,2
+631,09/12/2024 00:00,I feel happy and motivated today!,Loneliness,-0.53,Social Therapy,3
+632,11/02/2025 00:00,I feel so overwhelmed with work.,Depression,0.25,Social Therapy,5
+633,11/05/2024 00:00,I feel happy and motivated today!,Loneliness,-0.61,Mindfulness,1
+634,27/10/2024 00:00,My anxiety is getting worse.,Anxiety,-0.6,Self-care,1
+635,25/04/2024 00:00,I feel stressed about the future.,Loneliness,-0.3,Mindfulness,2
+636,23/03/2024 00:00,"I'm feeling good today, had a nice walk!",Positive,0.02,Self-care,5
+637,16/03/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,-0.8,Self-care,3
+638,24/09/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,0.68,Self-care,5
+639,15/05/2024 00:00,I just don’t see the point in anything.,Insomnia,-0.91,Self-care,3
+640,12/06/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,0.48,Mindfulness,3
+641,24/09/2024 00:00,I feel stressed about the future.,Anxiety,0.4,Mindfulness,3
+642,10/08/2024 00:00,I feel lonely and disconnected.,Positive,-0.08,Counseling,5
+643,21/07/2024 00:00,I feel lonely and disconnected.,Loneliness,0.85,Counseling,1
+644,26/04/2024 00:00,I'm having trouble concentrating on anything.,Loneliness,-0.35,Social Therapy,2
+645,04/01/2025 00:00,I feel stressed about the future.,Insomnia,0.57,Counseling,2
+646,11/06/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,0.44,Self-care,3
+647,09/05/2024 00:00,"I'm feeling good today, had a nice walk!",Positive,0.67,Mindfulness,4
+648,04/08/2024 00:00,I feel better after talking to someone.,Loneliness,0.51,Counseling,4
+649,07/06/2024 00:00,I feel better after talking to someone.,Depression,0.8,CBT,1
+650,21/11/2024 00:00,I just don’t see the point in anything.,Depression,0.33,Counseling,2
+651,29/11/2024 00:00,I just don’t see the point in anything.,Anxiety,-0.44,Self-care,5
+652,21/09/2024 00:00,I feel better after talking to someone.,Anxiety,0.23,Mindfulness,4
+653,14/11/2024 00:00,I feel lonely and disconnected.,Positive,0.98,Counseling,5
+654,03/08/2024 00:00,I feel better after talking to someone.,Anxiety,0.8,Counseling,3
+655,20/06/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,-0.31,Social Therapy,2
+656,20/12/2024 00:00,I feel better after talking to someone.,Insomnia,0.11,Mindfulness,4
+657,17/03/2024 00:00,I feel happy and motivated today!,Insomnia,0.35,Social Therapy,3
+658,30/04/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Positive,0.33,CBT,4
+659,29/06/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Depression,-0.77,Counseling,2
+660,09/01/2025 00:00,My anxiety is getting worse.,Anxiety,-0.19,CBT,3
+661,12/05/2024 00:00,I just don’t see the point in anything.,Depression,-0.13,Mindfulness,2
+662,01/03/2025 00:00,I feel lonely and disconnected.,Loneliness,0.99,Social Therapy,5
+663,20/04/2024 00:00,I feel better after talking to someone.,Anxiety,0.84,Mindfulness,3
+664,26/02/2025 00:00,I feel so overwhelmed with work.,Loneliness,0.74,Mindfulness,1
+665,07/03/2024 00:00,I feel happy and motivated today!,Anxiety,-0.83,Mindfulness,5
+666,27/12/2024 00:00,My anxiety is getting worse.,Loneliness,-0.31,Self-care,1
+667,11/10/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Depression,-0.35,Counseling,3
+668,19/07/2024 00:00,I feel happy and motivated today!,Anxiety,-0.8,Mindfulness,3
+669,15/03/2024 00:00,I feel stressed about the future.,Depression,0.86,Mindfulness,1
+670,09/05/2024 00:00,I feel better after talking to someone.,Insomnia,-0.5,Social Therapy,1
+671,14/10/2024 00:00,I feel happy and motivated today!,Anxiety,-0.77,CBT,3
+672,22/12/2024 00:00,My anxiety is getting worse.,Positive,0.95,Self-care,5
+673,09/06/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,0.1,CBT,1
+674,30/08/2024 00:00,My anxiety is getting worse.,Depression,-0.9,Self-care,1
+675,01/01/2025 00:00,I feel happy and motivated today!,Loneliness,0.01,Mindfulness,4
+676,24/06/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,0.53,Counseling,1
+677,27/05/2024 00:00,I feel so overwhelmed with work.,Loneliness,-0.36,Mindfulness,2
+678,01/01/2025 00:00,I feel stressed about the future.,Loneliness,0.97,Mindfulness,1
+679,09/12/2024 00:00,I feel so overwhelmed with work.,Anxiety,-0.83,Mindfulness,2
+680,10/01/2025 00:00,I feel stressed about the future.,Depression,0.21,Mindfulness,4
+681,08/09/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,0.94,Counseling,2
+682,22/12/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,0.77,CBT,1
+683,04/05/2024 00:00,"I'm feeling good today, had a nice walk!",Positive,0.4,Self-care,4
+684,03/03/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,-0.78,Self-care,1
+685,06/01/2025 00:00,I feel stressed about the future.,Depression,-0.3,Mindfulness,1
+686,07/06/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,0.61,Counseling,1
+687,17/01/2025 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,0.78,Self-care,4
+688,23/01/2025 00:00,I feel so overwhelmed with work.,Depression,0.61,Social Therapy,4
+689,30/09/2024 00:00,I feel so overwhelmed with work.,Anxiety,0.51,Counseling,5
+690,07/06/2024 00:00,I feel happy and motivated today!,Anxiety,-0.95,CBT,3
+691,26/04/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,0.4,Counseling,2
+692,18/04/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,-0.06,Counseling,4
+693,19/11/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,-0.96,Mindfulness,4
+694,26/04/2024 00:00,"I'm feeling good today, had a nice walk!",Positive,0.65,Mindfulness,1
+695,08/06/2024 00:00,I feel stressed about the future.,Loneliness,0.63,Counseling,4
+696,06/08/2024 00:00,I feel lonely and disconnected.,Positive,0.24,Self-care,5
+697,07/10/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,0.18,Mindfulness,2
+698,09/01/2025 00:00,I'm having trouble concentrating on anything.,Anxiety,-0.08,Social Therapy,4
+699,07/02/2025 00:00,I feel lonely and disconnected.,Depression,-0.27,Self-care,4
+700,20/12/2024 00:00,I'm having trouble concentrating on anything.,Depression,-0.52,CBT,2
+701,27/12/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Positive,-0.54,CBT,2
+702,26/12/2024 00:00,I just don’t see the point in anything.,Depression,0.79,Social Therapy,2
+703,22/04/2024 00:00,I feel lonely and disconnected.,Positive,-0.09,CBT,4
+704,13/04/2024 00:00,I feel lonely and disconnected.,Insomnia,0.13,Self-care,4
+705,05/08/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,-0.14,CBT,2
+706,19/01/2025 00:00,"I'm feeling good today, had a nice walk!",Positive,0.88,Social Therapy,4
+707,18/04/2024 00:00,"I'm feeling good today, had a nice walk!",Anxiety,-0.23,CBT,3
+708,24/10/2024 00:00,"I'm feeling good today, had a nice walk!",Anxiety,0.24,Social Therapy,4
+709,23/06/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,0,Counseling,4
+710,19/02/2025 00:00,"I can't sleep at night, my thoughts won't stop.",Depression,0.97,Counseling,1
+711,14/07/2024 00:00,I feel better after talking to someone.,Anxiety,-0.02,Counseling,2
+712,22/02/2025 00:00,My anxiety is getting worse.,Positive,0.58,Social Therapy,1
+713,13/06/2024 00:00,I feel so overwhelmed with work.,Loneliness,-0.67,Mindfulness,3
+714,23/12/2024 00:00,I feel better after talking to someone.,Depression,-0.7,Social Therapy,1
+715,28/11/2024 00:00,I feel stressed about the future.,Anxiety,-0.99,Social Therapy,3
+716,12/07/2024 00:00,I feel happy and motivated today!,Insomnia,0.14,Counseling,2
+717,19/08/2024 00:00,I feel so overwhelmed with work.,Loneliness,-0.6,CBT,4
+718,29/03/2024 00:00,My anxiety is getting worse.,Depression,-0.38,CBT,5
+719,06/08/2024 00:00,"I'm feeling good today, had a nice walk!",Anxiety,0.05,CBT,4
+720,12/04/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Positive,-0.03,Self-care,3
+721,26/05/2024 00:00,"I'm feeling good today, had a nice walk!",Anxiety,-0.01,Counseling,3
+722,22/05/2024 00:00,I feel happy and motivated today!,Depression,0.06,Counseling,2
+723,11/11/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,0.51,Counseling,5
+724,26/06/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,0.99,CBT,4
+725,13/06/2024 00:00,I feel stressed about the future.,Depression,-0.95,Self-care,3
+726,17/10/2024 00:00,My anxiety is getting worse.,Insomnia,0,Self-care,4
+727,28/12/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,0.77,CBT,3
+728,04/04/2024 00:00,I feel lonely and disconnected.,Anxiety,-0.07,Self-care,5
+729,24/03/2024 00:00,I just don’t see the point in anything.,Positive,-0.01,Social Therapy,4
+730,07/02/2025 00:00,I'm having trouble concentrating on anything.,Loneliness,0.59,Counseling,2
+731,15/02/2025 00:00,My anxiety is getting worse.,Loneliness,0.06,Counseling,5
+732,11/06/2024 00:00,I feel stressed about the future.,Positive,-0.14,Self-care,5
+733,20/07/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,0.05,CBT,1
+734,04/07/2024 00:00,I feel stressed about the future.,Loneliness,0.08,Self-care,2
+735,15/12/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,-0.7,Social Therapy,4
+736,23/06/2024 00:00,I feel happy and motivated today!,Loneliness,-0.12,Social Therapy,4
+737,04/12/2024 00:00,I feel so overwhelmed with work.,Positive,-0.65,CBT,3
+738,27/04/2024 00:00,I feel lonely and disconnected.,Anxiety,-0.98,Mindfulness,1
+739,12/04/2024 00:00,I feel so overwhelmed with work.,Depression,-0.83,CBT,4
+740,11/05/2024 00:00,I feel better after talking to someone.,Loneliness,-0.58,Mindfulness,5
+741,17/04/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,-0.01,Mindfulness,2
+742,27/02/2025 00:00,I just don’t see the point in anything.,Insomnia,0.46,Mindfulness,5
+743,15/06/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,-0.2,Counseling,3
+744,27/05/2024 00:00,I feel stressed about the future.,Depression,-0.55,Self-care,1
+745,25/08/2024 00:00,I feel happy and motivated today!,Depression,-0.75,Mindfulness,4
+746,17/10/2024 00:00,I feel lonely and disconnected.,Positive,-0.91,Counseling,4
+747,07/07/2024 00:00,I feel better after talking to someone.,Positive,-0.58,Mindfulness,1
+748,01/02/2025 00:00,I feel so overwhelmed with work.,Anxiety,-0.33,Self-care,2
+749,06/05/2024 00:00,My anxiety is getting worse.,Positive,-0.94,Counseling,4
+750,08/09/2024 00:00,I feel happy and motivated today!,Insomnia,-0.59,CBT,4
+751,25/10/2024 00:00,I'm having trouble concentrating on anything.,Anxiety,-0.3,Counseling,4
+752,19/04/2024 00:00,"I'm feeling good today, had a nice walk!",Insomnia,0.8,Counseling,4
+753,10/06/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,-0.46,CBT,3
+754,27/10/2024 00:00,I feel so overwhelmed with work.,Loneliness,-0.35,Self-care,1
+755,27/04/2024 00:00,My anxiety is getting worse.,Positive,0.96,Social Therapy,1
+756,01/02/2025 00:00,I feel better after talking to someone.,Depression,-0.26,CBT,3
+757,22/11/2024 00:00,I feel stressed about the future.,Loneliness,0.07,Counseling,3
+758,26/08/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,-0.97,Social Therapy,4
+759,01/03/2025 00:00,I feel lonely and disconnected.,Anxiety,-0.76,Counseling,5
+760,29/08/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Loneliness,0.53,CBT,4
+761,05/01/2025 00:00,I'm having trouble concentrating on anything.,Loneliness,0.28,CBT,1
+762,26/08/2024 00:00,I'm having trouble concentrating on anything.,Positive,-0.81,Counseling,2
+763,11/01/2025 00:00,I feel lonely and disconnected.,Depression,0.18,Mindfulness,3
+764,12/09/2024 00:00,I feel lonely and disconnected.,Depression,0.65,Self-care,3
+765,14/07/2024 00:00,My anxiety is getting worse.,Positive,-0.94,Self-care,5
+766,26/09/2024 00:00,I feel happy and motivated today!,Loneliness,-0.56,Self-care,1
+767,24/06/2024 00:00,My anxiety is getting worse.,Positive,-0.27,CBT,2
+768,29/08/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Depression,-0.93,Self-care,4
+769,01/05/2024 00:00,I feel better after talking to someone.,Insomnia,-0.52,Self-care,2
+770,02/06/2024 00:00,I feel happy and motivated today!,Anxiety,0.86,Social Therapy,1
+771,03/06/2024 00:00,I'm having trouble concentrating on anything.,Anxiety,0.95,Social Therapy,3
+772,29/09/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,-0.08,Counseling,1
+773,22/01/2025 00:00,"I'm feeling good today, had a nice walk!",Anxiety,-0.48,CBT,5
+774,15/05/2024 00:00,My anxiety is getting worse.,Positive,-0.03,CBT,3
+775,09/03/2024 00:00,I feel stressed about the future.,Loneliness,-0.2,Social Therapy,3
+776,01/06/2024 00:00,I feel better after talking to someone.,Insomnia,-0.59,Counseling,2
+777,29/08/2024 00:00,I feel stressed about the future.,Depression,-0.34,CBT,4
+778,16/10/2024 00:00,My anxiety is getting worse.,Loneliness,0.7,Self-care,2
+779,23/04/2024 00:00,I'm having trouble concentrating on anything.,Depression,0.7,Self-care,1
+780,12/09/2024 00:00,I just don’t see the point in anything.,Loneliness,0.5,Self-care,4
+781,17/03/2024 00:00,I feel lonely and disconnected.,Anxiety,0.97,CBT,4
+782,16/11/2024 00:00,"I'm feeling good today, had a nice walk!",Anxiety,0.34,CBT,3
+783,23/02/2025 00:00,"I can't sleep at night, my thoughts won't stop.",Depression,-0.3,CBT,4
+784,09/08/2024 00:00,My anxiety is getting worse.,Anxiety,0.33,Self-care,2
+785,25/11/2024 00:00,I feel lonely and disconnected.,Depression,0.03,Counseling,5
+786,16/02/2025 00:00,I just don’t see the point in anything.,Insomnia,0.99,Mindfulness,3
+787,06/08/2024 00:00,My anxiety is getting worse.,Insomnia,0.81,CBT,5
+788,05/11/2024 00:00,"I'm feeling good today, had a nice walk!",Loneliness,-0.47,Mindfulness,1
+789,29/07/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,-0.1,Self-care,2
+790,18/04/2024 00:00,I feel stressed about the future.,Depression,-0.25,Social Therapy,2
+791,09/04/2024 00:00,I feel stressed about the future.,Anxiety,0.44,CBT,1
+792,03/02/2025 00:00,I just don’t see the point in anything.,Anxiety,0.12,Mindfulness,1
+793,23/11/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,0.08,CBT,2
+794,05/02/2025 00:00,I feel stressed about the future.,Loneliness,0.61,Social Therapy,3
+795,23/06/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Positive,0.12,Self-care,5
+796,30/12/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Insomnia,-0.99,Mindfulness,3
+797,28/10/2024 00:00,I feel better after talking to someone.,Depression,0.64,Mindfulness,5
+798,12/03/2024 00:00,My anxiety is getting worse.,Positive,0.52,CBT,3
+799,23/10/2024 00:00,I'm having trouble concentrating on anything.,Insomnia,-0.56,Self-care,5
+800,07/08/2024 00:00,I'm having trouble concentrating on anything.,Loneliness,0.67,Self-care,2
+801,02/04/2024 00:00,I feel better after talking to someone.,Anxiety,0.06,Social Therapy,5
+802,06/06/2024 00:00,I feel happy and motivated today!,Anxiety,0.44,Counseling,1
+803,15/04/2024 00:00,I feel stressed about the future.,Loneliness,-0.42,CBT,4
+804,31/08/2024 00:00,I feel stressed about the future.,Insomnia,0.16,Self-care,1
+805,23/04/2024 00:00,I feel so overwhelmed with work.,Anxiety,0.95,Self-care,4
+806,06/11/2024 00:00,I feel so overwhelmed with work.,Loneliness,0.24,Mindfulness,4
+807,28/06/2024 00:00,I feel so overwhelmed with work.,Positive,0.57,Counseling,5
+808,28/12/2024 00:00,My anxiety is getting worse.,Anxiety,0.89,Self-care,1
+809,01/12/2024 00:00,My anxiety is getting worse.,Insomnia,-0.67,Social Therapy,1
+810,29/06/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,-0.15,Social Therapy,2
+811,05/11/2024 00:00,"I'm feeling good today, had a nice walk!",Positive,0.14,Counseling,2
+812,20/07/2024 00:00,My anxiety is getting worse.,Depression,0.96,Self-care,1
+813,10/10/2024 00:00,I feel so overwhelmed with work.,Depression,-0.13,Mindfulness,2
+814,02/01/2025 00:00,My anxiety is getting worse.,Anxiety,0.93,Counseling,1
+815,09/10/2024 00:00,I feel better after talking to someone.,Depression,-0.76,Self-care,2
+816,05/10/2024 00:00,My anxiety is getting worse.,Depression,-0.27,Social Therapy,3
+817,24/11/2024 00:00,I'm having trouble concentrating on anything.,Positive,-0.59,Social Therapy,4
+818,08/01/2025 00:00,I feel lonely and disconnected.,Insomnia,0.8,Social Therapy,4
+819,16/02/2025 00:00,I just don’t see the point in anything.,Anxiety,0.08,Counseling,5
+820,15/11/2024 00:00,I feel lonely and disconnected.,Insomnia,-0.65,Self-care,2
+821,31/08/2024 00:00,I just don’t see the point in anything.,Insomnia,0,Counseling,3
+822,13/02/2025 00:00,My anxiety is getting worse.,Insomnia,0.32,Mindfulness,4
+823,19/11/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Depression,-0.86,CBT,5
+824,28/03/2024 00:00,I'm having trouble concentrating on anything.,Anxiety,-0.8,Counseling,1
+825,23/10/2024 00:00,I feel stressed about the future.,Insomnia,0.96,Mindfulness,1
+826,09/10/2024 00:00,I feel happy and motivated today!,Anxiety,-0.95,Mindfulness,3
+827,25/11/2024 00:00,My anxiety is getting worse.,Positive,-0.48,CBT,2
+828,01/06/2024 00:00,I just don’t see the point in anything.,Loneliness,-0.62,Mindfulness,1
+829,10/01/2025 00:00,I feel lonely and disconnected.,Positive,-0.17,Counseling,1
+830,02/12/2024 00:00,I feel happy and motivated today!,Anxiety,-0.56,CBT,5
+831,20/06/2024 00:00,I feel better after talking to someone.,Positive,0.63,Social Therapy,2
+832,03/06/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Anxiety,-0.32,Counseling,1
+833,20/11/2024 00:00,I feel happy and motivated today!,Loneliness,0.29,Social Therapy,1
+834,08/05/2024 00:00,I feel better after talking to someone.,Insomnia,-0.46,Social Therapy,5
+835,12/01/2025 00:00,I feel happy and motivated today!,Loneliness,-0.77,Counseling,3
+836,28/07/2024 00:00,I feel happy and motivated today!,Insomnia,-0.96,CBT,2
+837,08/01/2025 00:00,I feel stressed about the future.,Anxiety,0.66,Mindfulness,5
+838,01/11/2024 00:00,"I can't sleep at night, my thoughts won't stop.",Depression,0.23,Self-care,2
+839,26/02/2025 00:00,I feel so overwhelmed with work.,Insomnia,-0.97,Mindfulness,2
+840,23/09/2024 00:00,I feel better after talking to someone.,Insomnia,0.3,Social Therapy,5
+841,30/05/2024 00:00,My anxiety is getting worse.,Depression,0.34,CBT,3
+842,03/05/2024 00:00,My anxiety is getting worse.,Loneliness,-0.02,Mindfulness,4
+843,18/04/2024 00:00,I feel happy and motivated today!,Anxiety,0.25,Social Therapy,3
+844,15/11/2024 00:00,I feel lonely and disconnected.,Anxiety,0.53,CBT,3
+845,25/10/2024 00:00,I just don’t see the point in anything.,Anxiety,0.08,Counseling,5
+846,04/07/2024 00:00,I just don’t see the point in anything.,Insomnia,-0.11,Self-care,4
+847,14/07/2024 00:00,I feel lonely and disconnected.,Anxiety,-0.04,CBT,3
+848,20/07/2024 00:00,"I'm feeling good today, had a nice walk!",Insomnia,-0.11,Social Therapy,5
+849,29/03/2024 00:00,"I'm feeling good today, had a nice walk!",Depression,0.12,Self-care,2
+850,30/09/2024 00:00,I feel stressed about the future.,Insomnia,0.05,Mindfulness,1
