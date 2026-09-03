@@ -279,6 +279,13 @@ enhancing-mental-health-with-ai/
 └── LICENSE
 ```
 ---
+->Results
+
+-> Actual vs Predicted Values
+
+The following visualization compares the actual therapy type values with the values predicted by the best-performing machine learning model.
+
+![Actual vs Predicted Results](model_prediction_results.png)
 -> 🚀 Future Improvement
 Possible future improvements include:
 * Developing a web interface for the application.
